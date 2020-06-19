@@ -1,0 +1,43 @@
+Parche IPS para la traducción española de Shalom (By Drwh0)
+-----------------------------------------------------------
+
+He creado este parche para facilitar la aplicación de la 
+solución encontrada por el usuario araubi para solucionar 
+el famoso "bug de la vela" presente en la traducción española. 
+
+Se aplica sobre la rom ya parcheada con la última versión
+(se sabe si viene con soporte de paleta MSX2 y el bugfix de disco) 
+
+El checksum del fichero es: "F5E5CA07"
+
+
+[] Extras para MSX2 y superior:
+
+- Nueva paleta MSX2 si pulsamos [GRAPH] mientras arranca el juego.
+- Forzamos a 60hz si pulsamos la tecla [SELECT] al arrancar el juego. 
+
+(Ambas teclas han de ser pulsadas antes de que aparezca el logo de KONAMI).
+
+
+[] Créditos (los originales y los "dos intrusos"):
+
+- Pablibiris: Traducción a castellano. 
+- Armando Pérez Abad: Corrección errores de carga / grabación disco y código
+  para los extras MSX2.
+- Miguel A. Fernández: Paleta MSX2
+- RicBit and Slotman: Original English Translation. 
+- Araubi: Por encontrar y compartir la solución, visitad su canal de Youtube.
+- DrWh0: Autor del IPS y verificación del mismo
+
+[] Agradecimientos de Pablibiris:
+
+Locomosxca por iniciarme y animarme a hacer ésta traducción.
+Manuel Pazos por su inmensa ayuda cuando han habido problemas.
+A Armando Pérez (Ramones) por su interés y gran ayuda en dejar esta ROM sin
+fallos y mejorada.
+Oscar Centelles por su magnifica colaboración en el testeo de la rom.
+Todos los MSX'eros que me han animado a no dejar el proyecto a medias.
+Gracias a todos! 
+
+
+(c) 2013 Armando Pérez Abad

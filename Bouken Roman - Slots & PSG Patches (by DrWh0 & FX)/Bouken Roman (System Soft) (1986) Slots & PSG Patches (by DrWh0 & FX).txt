@@ -1,0 +1,16 @@
+Parche IPS para compatibilidad de Bouken Roman (System Soft)
+-----------------------------------------------------------
+
+
+He creado este parche para solucionar dos problemas que este
+juego presentaba originalmente causando que el mismo se 
+colgase o sonara mal:
+
+1.- Error accediendo a slot/subslots (DrWh0)
+2.- Error de PSG en RAM & Multirom (FX)
+
+Créditos y agradecimientos:
+
+- FX: Por corregir el bug del PSG/RAM
+- Araubi: Por ponerme en contacto con FX
+- DrWh0: Autor del IPS y verificación del mismo

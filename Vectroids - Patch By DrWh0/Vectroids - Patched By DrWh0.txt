@@ -1,0 +1,26 @@
+Parche IPS para compatibilidad de "Vectroids" (By Drwh0)
+--------------------------------------------------------
+
+He creado este parche para poder usar esta rom sin 
+problemas pues la misma al tener un tamaño que no cumple 
+con la norma presenta unas incompatibilidades con ciertos
+emuladores y MSX reales.
+
+El parche en sí es bastante simple ya que simplemente se 
+rellena con bytes "dummy" a partir del final del fichero
+.ROM hasta alcanzar el siguiente valor válido resultando
+en el tamaño correcto de 512KB que le corresponde para 
+adecuarse al esquema de memoria adecuado.
+
+El parche IPS se aplica sobre el fichero original con 
+estas características.
+
+Nombre original  Checksum CRC32      
+vectroids.rom    6B87CF7A
+
+Aunque en teoría este parche debería funcionar sobre 
+cualquier versión del juego que tuviese el tamaño original
+recomiendo usar la versión indicada.
+
+
+(c) 2020 Drwh0

@@ -1,0 +1,98 @@
+Paquete de parches IPS para compatibilidad cartuchos de Konami (By Drwh0)
+-------------------------------------------------------------------------
+
+Introducción:
+
+He creado este set de parches para facilitar la modificación de las 
+rutinas conflictivas que están presentes en algunos de los primeros juegos 
+de Konami (son una forma primitiva de DRM) que impiden la ejecución de los
+mismos si se intentan ejecutar completos en la memoria RAM en lugar de la 
+memoria ROM para la que fueron diseñados.
+
+
+Básicamente este set de parches son una mezcla entre:
+
+* Modificaciones que descubrí y realicé yo mismo para mis proyectos 
+  personales y aprendizaje.
+  
+* Modificaciones realizadas en base a la información técnica puesta a 
+  disposición pública por parte de usuarios expertos del mundillo MSX y 
+  en general usuarios del foro de MRC.
+
+
+¿Qué hacían estas rutinas de protección?
+
+La protección en la mayoría de los casos consiste en escribir y/o unos 
+bytes en una zona de memoria concreta que en condiciones normales está 
+protegida contra escritura y modificaciones pero al estar en memoria son 
+modificables, hay algunas variaciones en un par de roms pero están 
+parcheadas en base a la info del usuario NYYRIKKI y otros en el foro de MSX.ORG.
+
+En mis pruebas no he encontrado errores pero si encuentras algún error contacta
+conmigo en el MSX.ORG
+
+
+¡¡NUNCA APLIQUES UN PARCHE IPS SI NO COINCIDEN LOS CHECKSUMS DE LOS FICHEROS ORIGINALES!!
+-----------------------------------------------------------------------------------------
+
+Los checksum (en formato MD5) de las versiones originales DEBEN ser estos:
+
+24a6d9cfa9e38e120678a538663e8ad2 Goonies, The (Konami) (1986).rom
+d302ba993f34a093e64829a8c60a7993 Hyper Rally (Konami) (1985).rom
+01a2c85070d987a1b83f591e83b5bcfe Hyper Sports 3 (Konami) (1985).rom
+ebfcaba358d7ceca95c7385276321f78 Knightmare - Majyo Densetsu (Konami) (1986).rom
+039a7ea2de0aa7261cad28ac8539e887 Konami's Baseball (Konami) (1984).rom
+3c276ae556ddd0feea9df0d5d31a5e1d Konami's Boxing (Konami) (1985).rom
+7d22b53c88fe5b6b352e9af89e1c16d3 Konami's Golf (Konami) (1985).rom
+9352eca87ee56a2e1e5db813fd686b91 Konami's Ping Pong (Konami) (1985).rom
+a113021087cc957f6bd64600a315e44d Konami's Soccer (Konami) (1985).rom
+393713df47b733544c62356f79993576 Mopiranger (Konami) (1985).rom
+f4afc761cda302c78f20f81c1922aa36 Pippols (Konami) (1985).rom
+977f313ed84fbf4b2308151547e040b7 Q-bert (Konami) (1986).rom
+5d88a7bf93f788e4dabf820e32912447 Twinbee (Konami) (1986).rom
+b591bb62cec12fcc13f54885cf3c7df6 Yie Ar Kung-Fu 2 - The Emperor Yie-Gah (Konami) (1985).rom
+
+
+Una vez parcheados deben quedar:
+
+e25e87aecc04f4e5047b9af12135cde1 Goonies, The (Konami) (1986).rom
+dc6d8160770e5e5ac9d550685879975f Hyper Rally (Konami) (1985).rom
+9da64d1337f234024639922681d43008 Hyper Sports 3 (Konami) (1985).rom
+81af973ecb82ca70bd61152770cee257 Knightmare - Majyo Densetsu (Konami) (1986).rom
+375016972e458ced560d5af360a3d527 Konami's Baseball (Konami) (1984).rom
+5b96ed50ad20ceae2aac53584a0dbe15 Konami's Boxing (Konami) (1985).rom
+c94c628d5694386a361e738c2c738f9c Konami's Golf (Konami) (1985).rom
+fe501f639a9183a924638960ec781224 Konami's Ping Pong (Konami) (1985).rom
+222476608907f80ebe714856df8bc80d Konami's Soccer (Konami) (1985).rom
+36059651483d311d379203ecae050f25 Mopiranger (Konami) (1985).rom
+af60dee247d1534dcff06704bfd04a4b Pippols (Konami) (1985).rom
+ba0c22899b45ccf5b53852d7c6a13667 Q-bert (Konami) (1986).rom
+11e00f6c406b0445b6b8bef111d50bd0 Twinbee (Konami) (1986).rom
+c42b3fc980677bf48782ec0e6682ed1f Yie Ar Kung-Fu 2 - The Emperor Yie-Gah (Konami) (1985).rom
+
+
+Si no coinciden los originales sólo conseguirás dañar la rom y si no coincide el MD5 de los 
+ficheros parcheados es que te has equivocado y aplicado un parche incorrecto o tu parcheador 
+es defectuoso:
+
+Para los parches usa LUNAR IPS lo puedes descargar de aquí:
+
+https://fusoya.eludevisibility.org/lips/
+
+
+[] Créditos:
+
+- NYYRIKKI y gente del MSX.ORG: Por documentar estas rutinas haciendo posible su parcheo.
+- DrWh0: Autor de estos IPS y verificación de los mismos
+- Fusoya´s: Autor del Lunar IPS
+
+
+AVISO LEGAL:
+
+* Este trabajo se realiza sin ánimo de lucro, de forma gratuita y con fines educativos.
+* No se incluye código propietario de ninguna asociación, entidad, persona o empresa.
+* No se incluye código que éste sujeto a propiedad intelectual alguna.
+* No se ha empleado información reservada de ningún tipo, siendo de origen público y libre.
+* No me hago responsable de consecuencias directas y/o indirectas del uso de estas modificaciones.
+* No me hago responsable del uso de estas modificaciones siendo el usuario el único responsable.
+* Estas modificaciones se entregan "tal cual" sin ningún tipo de garantía y/o servicios asociados.
