@@ -1,2 +1,3 @@
 # PARCHES IPS PARA MSX
-Varios parches IPS (para MSX)
+
+Colección de parches en formato IPS para software de MSX (en su mayoría juegos) a fin de mejorar o corregir problemas de compatibilidad con MSX o emuladores debido a protecciones de software, fallos de programación, etc...
