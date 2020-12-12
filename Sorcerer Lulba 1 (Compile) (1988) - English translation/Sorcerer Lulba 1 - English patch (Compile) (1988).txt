@@ -1,0 +1,60 @@
+"Sorcerer Lulba 1" English IPS translation patch by DrWh0
+=========================================================
+
+I made this IPS patch file in order to ease the patching
+of this translation from japanese to english using a non
+MSX computer.
+
+Original translation and .MIA patches were made by:
+
+MSX Translations & BiFi
+
+Why this patch instead of original .MIA files?
+==============================================
+
+I did this IPS patch for your convenience because 
+.MIA files are hard to use for rookies or non native
+MSX users.
+
+MIA patching is annoying because you need to:
+
+Decompress the original .DSK from Tosec & derivatives
+
+Rename the "AUTOEXEC.BAS" to "LULBA.BAS" and back
+
+Use commandline from a msx-dos computer
+
+With this patch you only need Lunar IPS or the patcher
+you usually use click on the .IPS provided and your 
+disk image.
+
+Also I duplicated "LULBA.BAS" file into "AUTOEXEC.BAS"
+in order to have the added autoboot feature intact.
+
+Original TOSEC file (& derivatives) to patch:
+
+Name:  "Lulba (1988)(Compile)(JP).dsk"
+CRC32: 884CA1E8
+
+
+CREDITS:
+========
+
+Original translation credits:
+
+MSX Translations
+ http://www.msxtranslations.com/sorcererlulba.php
+
+BiFi
+ http://www.bifi.msxnet.org/
+
+My Contact information:
+
+Webpage: https://github.com/Dalekamistoso
+Twitter: https://twitter.com/Dalekamistoso
+MSX.ORG: https://www.msx.org/users/drwh0
+
+
+
+
+(c) 2020 Drwh0
