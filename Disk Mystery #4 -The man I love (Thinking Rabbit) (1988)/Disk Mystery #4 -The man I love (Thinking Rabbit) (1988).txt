@@ -1,0 +1,30 @@
+"Disk Mystery #4 - The man I love (Thinking Rabbit)" Game fix Patch (By DrWh0)
+------------------------------------------------------------------------------
+
+This patch fixes the hang issue at title screen ONLY for Turbo R machines.
+
+This game originally worked only on MSX2 computers
+
+WARNING:
+
+Some Panasonic MSX2+ usually hang at title screen, keep any key pressed at 
+boot in order to skip title screen.
+
+How to use:
+
+Patch ONLY THE FIRST DISK:
+
+Original Disk 1:
+CRC32: 4A074DCB
+
+Patched Disk 1:
+CRC32:  60A749C1
+
+Tested on all Turbo R models
+
+Contact information:
+
+Twitter: https://twitter.com/Dalekamistoso
+MSX.ORG: https://www.msx.org/users/drwh0
+
+(c) 2021 Drwh0
