@@ -1,0 +1,18 @@
+Parche IPS para compatibilidad de Galaxian (Namcot)
+---------------------------------------------------
+
+He creado este IPS simplemente para facilitar el
+parcheo del problema de compatibilidad con memoria 
+en slot expandido que presenta este juego e impide
+su funcionamiento.
+
+Este parche ips es la aplicación automática de la 
+solución publicada en el msx.org referente a dicho
+problema de compatibilidad descrito aquí junto a 
+las dos soluciones presentadas:
+
+https://www.msx.org/wiki/MSX_compatibility_problems#Galaxian
+
+Créditos y agradecimientos:
+
+- MSX.ORG
